@@ -1,6 +1,6 @@
 import { FlexboxPlayground } from '@/components/FlexboxPlayground';
 import { Button } from '@/components/ui/button';
-import { Github, Grid3X3, Code } from 'lucide-react';
+import { Github, Grid3X3 } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -13,10 +13,6 @@ const Index = () => {
             <p className="text-sm text-muted-foreground">Interactive CSS Flexbox Playground</p>
           </div>
           <div className="flex items-center space-x-3">
-            <Button variant="outline" size="sm" className="gap-2">
-              <Code className="h-4 w-4" />
-              Get Code
-            </Button>
             <Button variant="outline" size="sm" className="gap-2">
               <Grid3X3 className="h-4 w-4" />
               Grids beta
